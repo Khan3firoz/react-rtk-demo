@@ -6,8 +6,8 @@ import userReducer from '../features/users/userSlice'
 const store=configureStore({
     reducer:{
         cake:cakeReducer,
-        iceCreame:iceCreameReducer,
-        user:userReducer
+        iceCream:iceCreameReducer,
+        users:userReducer
     },
     // middleware:(getDefaultMiddleware)=>getDefaultMiddleware().concat(logger)
 })
